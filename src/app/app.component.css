@@ -1,0 +1,15 @@
+.content {
+  margin-left: 260px; /* Espacio para el sidebar */
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebar.collapsed ~ .content {
+  margin-left: 60px;
+}
+
+i {
+  display: inline-block !important;
+  font-style: normal;
+  font-size: 16px;
+  color: white !important;
+}
